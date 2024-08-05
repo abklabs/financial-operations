@@ -1,0 +1,21 @@
+[package]
+name = "abklabs-financial-operations"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kevin Rodriguez <kevin@abklabs.com>"]
+description = "A Rust library to perform decimal arithmetic without floating point values."
+license = "MIT"
+repository = "https://github.com/abklabs/financial-operations"
+homepage = "https://github.com/abklabs/financial-operations"
+documentation = "https://docs.rs/abklabs-financial-operations"
+readme = "README.md"
+keywords = [
+    "blockchain",
+    "financial",
+    "solana",
+    "mint",
+    "finance",
+]
+categories = ["finance", "cryptography"]
+
+[dependencies]
