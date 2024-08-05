@@ -1,8 +1,8 @@
-# Financial Ops
+# Abklabs Financial Operations
 
-[![Crates.io](https://img.shields.io/crates/v/financial-ops)](https://crates.io/crates/financial-ops)
-[![Docs.rs](https://docs.rs/financial-ops/badge.svg)](https://docs.rs/financial-ops)
-[![License](https://img.shields.io/crates/l/financial-ops)]()
+[![Crates.io](https://img.shields.io/crates/v/abklabs-financial-operations)](https://crates.io/crates/abklabs-financial-operations)
+[![Docs.rs](https://docs.rs/abklabs-financial-operations/badge.svg)](https://docs.rs/abklabs-financial-operations)
+[![License](https://img.shields.io/crates/l/abklabs-financial-operations)]()
 
 This crate provides a set of operations for working with financial data, more specifically, avoiding
 the usage of floating point types.
@@ -10,7 +10,7 @@ the usage of floating point types.
 ## Usage
 
 ```rust
-use financial_ops::CheckedDecimalOperations;
+use abklabs_financial_operations::CheckedDecimalOperations;
 
 fn test_add_decimals() {
     let a: u64 = 1_0000;
@@ -43,7 +43,7 @@ This set of operations will return an `Result` with the result and the number of
 if the operation is successful. If the operation is not successful, it will return a `DecimalOperationError`.
 
 ```rust
-use financial_ops::CheckedDecimalOperations;
+use abklabs_financial_operations::CheckedDecimalOperations;
 ```
 
 - `add_decimals_checked`
@@ -58,7 +58,7 @@ This set of operations will return the result and the number of decimals, withou
 carrying the underlying operation way of handling overflows and underflows.
 
 ```rust
-use financial_ops::DecimalOperations;
+use abklabs_financial_operations::DecimalOperations;
 ```
 
 - `add_decimals`
